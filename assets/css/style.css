@@ -5,7 +5,11 @@
 }
 header{
     background-color: orangered;
-    /* position: fixed; */
+    position: fixed;
+    margin-bottom: 30px;
+    width: 100%;
+    z-index: 1;
+    
 }
 
 
@@ -33,7 +37,6 @@ section{
 }
 
 
-/*non funziona!?*/
 
 .title-left:hover {
     text-decoration: underline;
@@ -86,21 +89,25 @@ section{
 
 .iconContainer{
     margin-top: 40px;
+    margin-right: 45px;
 }
 
 /* main */
 
 main{
+    padding-top: 100px;
     width: 80%;
     margin: auto;
 }
 
 .cardsContainer{
-    width: 20%;
+    width: calc(90% / 3);
+    margin: 15px;
 }
 
 .image{
-    width: 200%;
+    max-width:100%;
+    max-height:100%;
 }
 
 .redText{
@@ -111,4 +118,64 @@ main{
 .lineText{
     text-decoration: line-through;
     display: inline;
+}
+
+.imageContainer{
+    position: relative;
+}
+
+.discountContainer{
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    
+}
+
+.discount{    
+    text-align: center;
+    background-color: red;
+    width: 50px;
+    height: 20px;
+}
+
+.Sostenibilità{
+    text-align: center;
+
+    background-color: green;
+    width: 50px;
+    height: 20px;
+}
+
+.heartContainer{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+
+.flexDiscount{
+    display: flex;
+    flex-direction: row;
+}
+
+.fa-gratipay{
+ /*    color: black; */
+    font-size: 45px;
+}
+
+.flexHeart{
+    display: flex;
+    justify-content: center;
+}
+
+.flexCard{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.card2{
+    margin: 20px;
 }
