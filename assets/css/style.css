@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
 header{
     background-color: orangered;
     position: fixed;
@@ -15,7 +19,7 @@ header{
 section{
     width: 80%;
     margin: auto;
-    height: 100px;
+    height: 90px;
 }
 
 .flexHeader{
@@ -136,9 +140,11 @@ main{
     text-align: center;
     color: white;
     background-color: green;
-    width: 50px;
+    width: auto;
     height: 20px;
     margin-left: 5px;
+    padding-left: 2px;
+    padding-right: 3px;
 }
 
 .heart:hover {
@@ -223,6 +229,10 @@ footer{
 .legalFooter{
     color: white;
     margin-top: 15px;
+}
+
+#srl{
+    margin-bottom: 10px;
 }
 
 .findUs{
