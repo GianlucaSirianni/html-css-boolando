@@ -3,4 +3,112 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    background-color: orangered;
+    /* position: fixed; */
+}
 
+
+section{
+    width: 80%;
+    margin: auto;
+    height: 100px;
+}
+
+.flexHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.manWomenKids{
+    width: 20%;
+    /* background-color: green; */
+    height: 100px;
+}
+
+.title-left{
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+
+/*non funziona!?*/
+
+.title-left:hover {
+    text-decoration: underline;
+}
+
+.logo{
+    width: 40%;
+    /* background-color: green;
+    /* height: 100px; */
+}
+
+#booleanLogo{
+    width: 30%;
+    margin: auto;
+}
+
+.flexLogo{
+    display: flex;
+    justify-content: center;
+}
+
+.headerIcons{
+    width: 20%;
+    /* background-color: green; */
+    height: 100px;
+    /* position: relative */
+}
+
+.fa-regular{
+    color: white;
+}
+
+.fa-solid{
+    color: white;
+}
+
+.flexIcons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-bag-shopping{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.fa-heart{
+    margin-left: 3%;
+}
+
+.iconContainer{
+    margin-top: 40px;
+}
+
+/* main */
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.cardsContainer{
+    width: 20%;
+}
+
+.image{
+    width: 200%;
+}
+
+.redText{
+    color: red;
+    display: inline;
+}
+
+.lineText{
+    text-decoration: line-through;
+    display: inline;
+}
